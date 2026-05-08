@@ -1,0 +1,42 @@
+# =========================
+# Java compiled files
+# =========================
+*.class
+*.jar
+*.war
+*.ear
+
+# =========================
+# Eclipse files
+# =========================
+.classpath
+.project
+.settings/
+bin/
+target/
+.metadata/
+
+# =========================
+# IntelliJ IDEA files
+# =========================
+.idea/
+*.iml
+out/
+
+# =========================
+# Gradle / Maven
+# =========================
+.gradle/
+build/
+dependency-reduced-pom.xml
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
