@@ -1,4 +1,4 @@
-package unidades;
+package unidad1;
 
 /**
  * Ejemplo básico de variables en Java.
