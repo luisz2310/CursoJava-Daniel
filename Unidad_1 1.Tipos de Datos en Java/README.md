@@ -1,12 +1,3 @@
-# Java Practice Project
-
-This project contains basic Java examples for learning programming fundamentals such as:
-
-- Variables and data types
-- Conditions (if / else)
-- Loops (for / while)
-- Basic algorithms
-
 # 📘 Tipos de Datos en Java
 
 ## 🧠 Concepto básico
@@ -49,20 +40,20 @@ Cantidad de valores = 2^n   (n = número de bits)
 |------|--------|------------|
 | `byte`  | 8 bits  | Enteros pequeños |
 | `short` | 16 bits | Enteros medianos |
-| `int`   | 32 bits | Enteros comunes |
+| `int`   | 32 bits | Enteros comunes | Usar cuando no se el tamano
 | `long`  | 64 bits | Enteros grandes |
 
 ### 🔢 Números decimales
 | Tipo   | Tamaño | Descripción |
 |--------|--------|------------|
-| `float`  | 32 bits | Menor precisión |
+| `float`  | 32 bits | Menor precisión | Usar cuando no se el tamano
 | `double` | 64 bits | Mayor precisión |
 
 ### 🔤 Texto
 | Tipo    | Tamaño | Descripción |
 |---------|--------|------------|
 | `char`  | 16 bits | Un solo carácter |
-| `String`| Variable | Cadena de texto |
+| `String`| Variable | Cadena de texto | 
 
 Ejemplo:
 char letra = 'W';
