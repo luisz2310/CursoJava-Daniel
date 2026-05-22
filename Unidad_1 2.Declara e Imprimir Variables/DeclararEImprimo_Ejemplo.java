@@ -3,7 +3,7 @@ package unidad1;
 /**
  * Ejemplo básico de variables en Java.
  */
-public class Clase1 {
+public class DeclararEImprimo_Ejemplo {
 
     // Todo programa en Java inicia en el método main
     public static void main(String[] args) {
