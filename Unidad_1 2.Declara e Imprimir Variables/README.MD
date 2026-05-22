@@ -18,6 +18,7 @@ tipo nombre = valor;
 
 ## 🔤 Ejemplos del código
 
+```java
 byte m;        // Declaración
 m = 2;         // Asignación
 
@@ -25,8 +26,10 @@ byte n1 = 4;   // Declaración + inicialización
 
 char letra = 'a'; // Tipo carácter
 
+int var1 = 10; // tipo integer
+```
 ## 🖨️ Imprimir en consola
-
+```java
 // Declaramos una variable
 int variable = 2;
 
@@ -38,11 +41,13 @@ System.out.println("Hola mundo");
 
 // Imprimir directamente un número
 System.out.println(10);
-
+```
 ## ▶️ Salida esperada
 
 2
+
 Hola mundo
+
 10
 
 ## 🎯 Objetivo de la clase
