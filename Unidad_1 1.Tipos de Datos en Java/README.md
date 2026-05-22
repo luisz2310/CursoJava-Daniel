@@ -1,73 +1,104 @@
 # 📘 Tipos de Datos en Java
 
 ## 🧠 Concepto básico
-En programación, los **tipos de datos** definen qué tipo de valor puede almacenar una variable.
+En programación, los **tipos de datos** definen qué tipo de valor puede guardar una variable.
 
-### 🔢 Tipos principales
-- **Números**
-  - Enteros (sin decimales)
-  - Decimales
-- **Texto**
-  - Caracter (`char`)
-  - Palabras (`String`)
-- **Booleanos**
-  - Verdadero o falso (`true` / `false`)
+---
+
+## 🔢 Tipos principales
+
+### Números
+- **Enteros** → sin decimales (`int`, `long`, etc.)
+- **Decimales** → con decimales (`float`, `double`)
+
+### Texto
+- **char** → un solo carácter (`'A'`)
+- **String** → palabras o frases (`"Hola"`)
+
+### Booleanos
+- Solo dos valores:
+  - `true` (verdadero)
+  - `false` (falso)
 
 ---
 
 ## 💾 Bits y representación
-Un **bit** es la unidad mínima de computación y solo puede tener dos valores:
 
-0 o 1
+Un **bit** es la unidad más pequeña de información:
+- Solo puede ser: `0` o `1`
 
-### 🔢 Combinaciones según número de bits
+### 🔢 Combinaciones
 
-1 bit  -> 0, 1                  -> 2 valores  
-2 bits -> 00, 01, 10, 11        -> 4 valores (0–3)  
-3 bits -> 000 ... 111           -> 8 valores (0–7)  
-4 bits -> 0000 ... 1111         -> 16 valores (0–15)  
-8 bits -> 00000000 ... 11111111 -> 256 valores (0–255)  
+1 bit  → 2 valores  
+2 bits → 4 valores  
+3 bits → 8 valores  
+4 bits → 16 valores  
+8 bits → 256 valores  
 
-📌 Regla general:  
-Cantidad de valores = 2^n   (n = número de bits)
+📌 Regla general:
+Cantidad de valores = 2^n
 
 ---
 
 ## ☕ Tipos de datos en Java
 
-### 🔢 Números enteros
-| Tipo  | Tamaño | Descripción |
-|------|--------|------------|
-| `byte`  | 8 bits  | Enteros pequeños |
-| `short` | 16 bits | Enteros medianos |
-| `int`   | 32 bits | Enteros comunes | Usar cuando no se el tamano
-| `long`  | 64 bits | Enteros grandes |
+### 🔢 Enteros
 
-### 🔢 Números decimales
-| Tipo   | Tamaño | Descripción |
-|--------|--------|------------|
-| `float`  | 32 bits | Menor precisión | Usar cuando no se el tamano
-| `double` | 64 bits | Mayor precisión |
+| Tipo   | Tamaño | Uso recomendado |
+|--------|--------|----------------|
+| `byte`  | 8 bits  | Valores pequeños |
+| `short` | 16 bits | Poco usado |
+| `int`   | 32 bits | ⭐ Uso general (recomendado) |
+| `long`  | 64 bits | Valores muy grandes |
+
+---
+
+### 🔢 Decimales
+
+| Tipo    | Tamaño | Uso recomendado |
+|---------|--------|----------------|
+| `float`  | 32 bits | Menor precisión |
+| `double` | 64 bits | ⭐ Uso general (más preciso) |
+
+---
 
 ### 🔤 Texto
-| Tipo    | Tamaño | Descripción |
-|---------|--------|------------|
-| `char`  | 16 bits | Un solo carácter |
-| `String`| Variable | Cadena de texto | 
+
+| Tipo     | Tamaño    | Descripción |
+|----------|----------|------------|
+| `char`   | 16 bits  | Un carácter |
+| `String` | Variable | Texto |
 
 Ejemplo:
 char letra = 'W';
 
-Representación numérica:
+📌 Nota:
+Cada carácter tiene un valor numérico interno:
 'W' = 119
 
-### ✅ Booleanos
-| Tipo     | Valores |
-|----------|--------|
-| `boolean` | `true` o `false` |
+---
 
-También se puede representar como:
-true  -> 1  
-false -> 0  
+### ✅ Booleanos
+
+| Tipo      | Valores |
+|-----------|--------|
+| `boolean` | `true` / `false` |
 
 ---
+
+## ⚠️ Reglas importantes
+
+- Usa `int` por defecto para enteros
+- Usa `double` por defecto para decimales
+- `char` usa comillas simples `' '`  
+- `String` usa comillas dobles `" "`
+- Toda variable debe tener un tipo
+
+---
+
+## 🎯 Objetivo
+
+Entender:
+- Qué tipo de dato usar en cada caso  
+- Cómo se representan los datos en memoria  
+- Diferencia entre números, texto y booleanos  
