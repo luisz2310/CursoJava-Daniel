@@ -1,5 +1,3 @@
-Esta unidad introduce los conceptos básicos de programación en Java y su relación con la lógica de algoritmos.
-
 ## 📚 Contenido
 
 ### 0. Equivalentes de pasos en un diagrama en Java
