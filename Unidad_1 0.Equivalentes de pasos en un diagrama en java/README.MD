@@ -3,15 +3,17 @@
 ## ▶️ Estructura de un programa
 
 Inicio del programa:
+
+```java
 public static void main(String args[]) {
-
     // instrucciones
-
 }
-
+```
 Fin del programa:
-System.exit(0);
 
+```java
+System.exit(0);
+```
 ---
 
 ## 📥 Leer valores (entrada de datos)
@@ -20,17 +22,10 @@ System.exit(0);
 - Se puede usar Scanner para leer desde teclado
 
 Ejemplo conceptual:
-variable = valor;
 
----
-
-## 📦 Variables
-
-- Sirven para guardar información
-- Deben tener un valor inicial antes de usarse
-
-Ejemplo:
-int a = 5;
+```java
+int variable = 10;
+```
 
 ---
 
@@ -41,18 +36,21 @@ Solo puedes imprimir:
 - Valores fijos
 
 Ejemplos:
+
+```java
 System.out.println(a);
 System.out.println("Hola");
 System.out.println(10);
-
+```
 ---
 
 ## 💾 Guardar resultados
 
 El resultado de una operación debe guardarse en una variable:
 
+```java
 c = a + b;
-
+```
 ---
 
 ## ➕ Operaciones aritméticas
@@ -64,15 +62,20 @@ c = a + b;
 %
 
 Ejemplos:
+
+```java
 c = a + b;
 c = a - b;
 c = a * b;
 c = a / b;
 c = a % b;
+```
 
 ⚠️ Si no guardas el resultado, se pierde:
 
+```java
 System.out.println(a + b); // se imprime pero no se guarda
+```
 
 ---
 
@@ -80,12 +83,13 @@ System.out.println(a + b); // se imprime pero no se guarda
 
 Devuelve el residuo de una división:
 
+```java
 3 / 2 = 1
 3 % 2 = 1
 
 4 / 2 = 2
 4 % 2 = 0
-
+```
 ---
 
 ## 🔀 Condiciones (IF)
@@ -100,9 +104,12 @@ Operadores:
 <=
 
 Ejemplo:
+
+```java
 if (a > b) {
     // acción
 }
+```
 
 ---
 
@@ -114,7 +121,12 @@ if (a > b) {
 - Las operaciones se hacen con variables
 
 Ejemplo válido:
-c = a * b;
 
+```java
+c = a * b;
+```
 Ejemplo inválido (sin contexto de variables):
+
+```java
 a * b   ❌
+```
