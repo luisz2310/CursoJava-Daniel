@@ -15,7 +15,7 @@
 bin/
 target/
 .metadata/
-Unidad_1_Java_basico/
+src/
 
 # =========================
 # IntelliJ IDEA files
