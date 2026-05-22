@@ -17,10 +17,15 @@ public class Clase1 {
         byte m;
         // Asignar un valor a la variable
         m = 2;
-
+        System.out.println(m);
+        
         // Declarar e inicializar en una sola línea
         // Sintaxis: tipo + nombre = valor;
         byte n1 = 4;
+        System.out.println(n1);
+        
+        char letra = 'a';
+        System.out.println(letra);
 
     }
 }
