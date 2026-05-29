@@ -86,6 +86,13 @@ Permiten combinar condiciones.
 !  → NOT (invierte el valor)
 ```
 
+| A | B |  AND |  OR |  XOR |
+|---|---|----------|---------|---------|
+| T | T | T        | T       | F       |
+| T | F | F        | T       | T       |
+| F | T | F        | T       | T       |
+| F | F | F        | F       | F       |
+
 ### Ejemplo
 
 ```java
