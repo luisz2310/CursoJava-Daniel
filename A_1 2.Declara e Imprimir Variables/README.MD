@@ -42,7 +42,7 @@ System.out.println("Hola mundo");
 // Imprimir directamente un número
 System.out.println(10);
 ```
-## ▶️ Salida esperada
+▶️ Salida esperada
 
 2
 
@@ -50,8 +50,35 @@ Hola mundo
 
 10
 
+## 🔗 Concatenación (unir valores)
+
+int edad = 25;
+String nombre = "Luis";
+
+// Unir texto + variables
+System.out.println("Edad: " + edad);
+System.out.println("Nombre: " + nombre);
+
+System.out.println("Hola " + nombre + ", tienes " + edad + " años");
+
+📌 Importante:
+- Se usa el operador +
+- Si hay texto, todo se convierte a String
+
+▶️ Salida esperada
+
+2
+Hola mundo
+10
+Edad: 25
+Nombre: Luis
+Hola Luis, tienes 25 años
+
+---
+
 ## 🎯 Objetivo de la clase
 
 - Entender qué es una variable  
 - Aprender su estructura (declarar, asignar, inicializar)  
-- Usar System.out.println para mostrar resultados  
+- Usar System.out.println  
+- Entender la concatenación  

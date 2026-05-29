@@ -28,3 +28,11 @@
 - Uso de `System.out.println`  
 
 ---
+
+### A_1 3.Operadores lógicos y aritméticos
+Operaciones matemáticas (+, -, *, /, %)
+Comparaciones (>, <, ==, !=, >=, <=)
+Operadores lógicos (&&, ||, !)
+Uso de booleanos en decisiones
+
+---
