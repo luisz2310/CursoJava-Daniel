@@ -2,7 +2,8 @@
 ```bash
 ├───A_1 0.Equivalentes de pasos en un diagrama en java  
 ├───A_1 1.Tipos de Datos en Java  
-└───A_1 2.Declara e Imprimir Variables
+├───A_1 2.Declara e Imprimir Variables  
+└───A_1 3.Operadores Logicos y Aritmeticos
 ```
 ---
 
