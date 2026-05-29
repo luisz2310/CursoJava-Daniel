@@ -14,14 +14,16 @@ Se usan para realizar operaciones matemáticas.
 
 ### Operadores
 
+```bash
 +  → suma  
 -  → resta  
 *  → multiplicación  
 /  → división  
 %  → módulo (residuo de la división)
+```
 
 ### Ejemplos
-
+```java
 int a = 10;
 int b = 5;
 
@@ -30,6 +32,7 @@ r = a - b;      // 5
 r = a * b;      // 50
 r = a / b;      // 2
 r = a % b;      // 0
+```
 
 ### 📌 Importante
 
@@ -38,8 +41,10 @@ r = a % b;      // 0
 - Si no guardas el resultado, se pierde
 
 Ejemplo:
-System.out.println(a + b); // se imprime pero no se guarda
 
+```java
+System.out.println(a + b); // se imprime pero no se guarda
+```
 ---
 
 ## 🔀 2. Operadores Lógicos
@@ -48,15 +53,18 @@ Se usan para comparar valores y obtener resultados booleanos.
 
 ### Operadores de comparación
 
+```bash
 >   mayor que  
 <   menor que  
 ==  igual que  
 !=  diferente que  
 >=  mayor o igual  
 <=  menor o igual  
+```
 
 ### Ejemplos
 
+```java
 int a = 5;
 int b = 10;
 
@@ -64,6 +72,7 @@ a > b   → false
 a < b   → true  
 a == b  → false  
 a != b  → true  
+```
 
 ---
 
@@ -71,16 +80,20 @@ a != b  → true
 
 Permiten combinar condiciones.
 
+```bash
 && → AND (ambas condiciones deben ser true)  
 || → OR (al menos una debe ser true)  
 !  → NOT (invierte el valor)
+```
 
 ### Ejemplo
 
+```java
 int edad = 18;
 int nota = 80;
 
 boolean acceso = (edad >= 18) && (nota >= 70);
+```
 
 ---
 
