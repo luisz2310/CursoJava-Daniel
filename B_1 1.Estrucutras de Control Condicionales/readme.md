@@ -127,16 +127,5 @@ if (a > b || (c > d && e > f)) { }
 
 ---
 
-## 🚀 RESUMEN RÁPIDO
-
-| Tema        | Clave |
-|-------------|------|
-| `if`        | Ejecuta si es TRUE |
-| `else`      | Alternativa |
-| `&&`        | AND |
-| `||`        | OR |
-
----
-
 💻 **Nivel:** Principiante  
 📚 **Tema:** Lógica y control de flujo en Java
