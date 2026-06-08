@@ -1,7 +1,5 @@
 # 📘 Java Cheatsheet – Estructuras de Control y Operadores Lógicos
 
-Clase: `Clase1_EstructurasDeControl_Condicionales`
-
 ---
 
 ## 🧠 CONDICIONALES (IF)
