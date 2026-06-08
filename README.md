@@ -3,7 +3,10 @@
 ├───A_1 0.Equivalentes de pasos en un diagrama en java  
 ├───A_1 1.Tipos de Datos en Java  
 ├───A_1 2.Declara e Imprimir Variables  
-└───A_1 3.Operadores Logicos y Aritmeticos
+├────A_1 3.Operadores Logicos y Aritmeticos
+│
+└───B_1 1.Estrucutras de Control Condicionales
+
 ```
 ---
 
@@ -35,5 +38,14 @@
  - Comparaciones (>, <, ==, !=, >=, <=)
  - Operadores lógicos (&&, ||, !)
  - Uso de booleanos en decisiones
+
+---
+
+### Condicionales
+📁 B_1 1.Estrucutras de Control Condicionales  
+
+- Estructuras `if`, `else`
+- Toma de decisiones en el flujo del programa  
+- Comparación de valores  
 
 ---
