@@ -1,5 +1,7 @@
 # 📘 Java Cheatsheet – Estructuras de Control y Operadores Lógicos
 
+Clase: `Clase1_EstructurasDeControl_Condicionales`
+
 ---
 
 ## 🧠 CONDICIONALES (IF)
@@ -70,25 +72,6 @@ if (a > b) {
 
 ---
 
-## 🔁 IF - ELSE IF
-
-```java
-if (a > b) {
-    System.out.println("a > b");
-} else if (a < b) {
-    System.out.println("a < b");
-} else if (a == b) {
-    System.out.println("a == b");
-} else {
-    System.out.println("Ninguna condición se cumplió");
-}
-```
-
-✔ Solo se ejecuta la primera condición verdadera  
-✔ Se evalúa de arriba hacia abajo  
-
----
-
 ## 🔗 IF ANIDADOS
 
 ```java
@@ -125,6 +108,21 @@ if (a > b || a > c) { }
 
 // NOT
 if (!(x > 10)) { }
+```
+
+---
+
+## ⚠️ PRECEDENCIA LÓGICA
+
+Orden de evaluación:
+
+1. `()`
+2. `&&`
+3. `||`
+
+```java
+// Ejemplo
+if (a > b || (c > d && e > f)) { }
 ```
 
 ---
