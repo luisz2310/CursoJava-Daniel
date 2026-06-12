@@ -1,28 +1,21 @@
 # 📘 Java Cheatsheet – Estructuras de Control y Operadores Lógicos
 
+Clase: Clase1_EstructurasDeControl_Condicionales
+
 ---
 
 ## 🧠 CONDICIONALES (IF)
 
 ### 📌 ¿Qué hacen?
-Permiten tomar decisiones en el programa.
+Permiten tomar decisiones en el programa evaluando condiciones booleanas.
 
 ```java
 if (condicion) {
-    // código que se ejecuta si es TRUE
+    // código ejecutado si es TRUE
 }
 ```
 
-### 🔍 Ejemplo
-
-```java
-boolean x = 1 > 2; // false
-boolean y = 1 < 2; // true
-```
-
-✔ Las condiciones SIEMPRE regresan:
-- `true`
-- `false`
+✔ Toda condición devuelve: true o false
 
 ---
 
@@ -30,16 +23,16 @@ boolean y = 1 < 2; // true
 
 | Operador | Significado |
 |----------|------------|
-| `>`      | Mayor que |
-| `<`      | Menor que |
-| `>=`     | Mayor o igual |
-| `<=`     | Menor o igual |
-| `==`     | Igual |
-| `!=`     | Diferente |
+| >        | Mayor que |
+| <        | Menor que |
+| >=       | Mayor o igual |
+| <=       | Menor o igual |
+| ==       | Igual |
+| !=       | Diferente |
 
 ---
 
-## ⚡ USO DE IF
+## ⚡ IF
 
 ```java
 if (a >= b) {
@@ -51,8 +44,7 @@ if (a == b) {
 }
 ```
 
-⚠️ **IMPORTANTE**
-- `if` separados → pueden ejecutarse varios bloques
+⚠️ if separados pueden ejecutar múltiples bloques
 
 ---
 
@@ -60,13 +52,13 @@ if (a == b) {
 
 ```java
 if (a > b) {
-    System.out.println("Se cumple a > b");
+    System.out.println("a > b");
 } else {
-    System.out.println("No se cumple a > b");
+    System.out.println("No se cumple");
 }
 ```
 
-✔ Solo ejecuta UNA opción
+✔ Solo una opción se ejecuta
 
 ---
 
@@ -77,68 +69,69 @@ if (a > b) {
     System.out.println("a > b");
 } else if (a < b) {
     System.out.println("a < b");
-} else if (a == b) {
-    System.out.println("a == b");
 } else {
-    System.out.println("Ninguna condición se cumplió");
+    System.out.println("a == b");
 }
 ```
 
-✔ Solo se ejecuta la primera condición verdadera  
-✔ Se evalúa de arriba hacia abajo  
+✔ Solo la primera condición verdadera se ejecuta
 
 ---
 
-## 🔗 IF ANIDADOS
+## 🔗 OPERADORES LÓGICOS
+
+- && → AND
+- || → OR
+- !  → NOT
 
 ```java
-if (a > b) {
-    if (a > c) {
-        System.out.println("A es mayor que B y C");
-    }
-}
-```
-
----
-
-## 🔘 Operadores booleanos en Java
-
-- `&&` → AND (y)  
-- `||` → OR (o)  
-- `!`  → NOT (negación)  
-
-| A | B |  AND |  OR |  XOR |
-|---|---|----------|---------|---------|
-| T | T | T        | T       | F       |
-| T | F | F        | T       | T       |
-| F | T | F        | T       | T       |
-| F | F | F        | F       | F       |
-
-### 🔍 Ejemplos
-
-```java
-// AND
 if (a > b && a > c) { }
 
-// OR
 if (a > b || a > c) { }
 
-// NOT
-if (!(x > 10)) { }
+if (!(a > 10)) { }
 ```
 
 ---
 
-## 🚀 RESUMEN RÁPIDO
+## ⚠️ PRECEDENCIA
 
-| Tema        | Clave |
-|-------------|------|
-| `if`        | Ejecuta si es TRUE |
-| `else`      | Alternativa |
-| `&&`        | AND |
-| `||`        | OR |
+1. ()
+2. &&
+3. ||
 
 ---
 
-💻 **Nivel:** Principiante  
-📚 **Tema:** Lógica y control de flujo en Java
+## 🔀 SWITCH
+
+```java
+switch (z) {
+    case 1:
+        System.out.println("Caso 1");
+        break;
+    default:
+        System.out.println("Default");
+}
+```
+
+---
+
+## ⚡ SWITCH MODERNO
+
+```java
+switch (z) {
+    case 1 -> System.out.println("Caso 1");
+    default -> System.out.println("Default");
+}
+```
+
+---
+
+## 🚀 RESUMEN
+
+- if → decisiones
+- else → alternativa
+- else if → múltiples decisiones
+- && → y
+- || → o
+- switch → múltiples opciones
