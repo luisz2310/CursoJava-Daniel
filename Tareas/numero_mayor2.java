@@ -1,4 +1,3 @@
-```java id="xk2p9m"
 public class numero_mayor2 {
 	public static void main(String arg[]) {
 
@@ -39,4 +38,3 @@ public class numero_mayor2 {
 		}
 	}
 }
-```
