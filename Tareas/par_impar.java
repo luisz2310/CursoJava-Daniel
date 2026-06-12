@@ -1,4 +1,3 @@
-```java
 public class par_impar {
 	public static void main(String arg[]) {
 
@@ -30,4 +29,3 @@ public class par_impar {
 		}
 	}
 }
-```
