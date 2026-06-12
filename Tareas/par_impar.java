@@ -1,4 +1,4 @@
-
+```java
 public class par_impar {
 	public static void main(String arg[]) {
 
@@ -6,18 +6,28 @@ public class par_impar {
 
 		int resultado = numero % 2; 
 
-		//System.out.println(resultado);	
+		// System.out.println(resultado);	
 
-		//SUGERENCIA QUI
-		//CUANDO usa el resulado de >, <, ==, % solo para un if no necesitas guardarlo en una variable
-		//solo usalo directamente 
-	  //if (resultado == 0) {
-		if( numero%2 == 0) {
-			System.out.println("El numero '" + numero + "' Es par");
+		// 💡 BUENA PRÁCTICA:
+		// Cuando una operación (>, <, ==, %, etc.) solo se utiliza
+		// para evaluar una condición en un if, NO es necesario
+		// guardarla en una variable intermedia.
+		//
+		// Puedes usar la expresión directamente dentro del if,
+		// lo que hace el código más limpio y fácil de leer.
+		//
+		// ❌:
+		// int resultado = numero % 2; 
+		// if (resultado == 0)
+		//
+		// ✅ Mejor:
+		// if (numero % 2 == 0)
+
+		if (numero % 2 == 0) {
+			System.out.println("El numero '" + numero + "' es par");
 		} else {
-			System.out.println("El numero '" + numero + "' Es impar");
+			System.out.println("El numero '" + numero + "' es impar");
 		}
-		
-		
 	}
 }
+```

@@ -1,3 +1,4 @@
+```java id="xk2p9m"
 public class numero_mayor2 {
 	public static void main(String arg[]) {
 
@@ -13,16 +14,29 @@ public class numero_mayor2 {
 		boolean c1 = r1 && r2;
 		boolean c2 = r3 && r4;
 
-		//SUGERENCIA QUI
-		//CUANDO usas el resulado de && o ||  solo para un if no necesitas guardarlo en una variable
-	  //if (c1) {
-		if(r1 && r2) {
-			System.out.println("el mayor es x: " + x);
-	  //}else if (c2) {
-		}else if (r3 && r4) {
-			System.out.println("el mayor es y: " + y);
-		}else {
-			System.out.println("el mayor es z:" + z);
+		// 💡 BUENA PRÁCTICA:
+		// Cuando una expresión lógica (&&, ||, comparaciones, etc.)
+		// se utiliza únicamente dentro de un if, NO es necesario
+		// guardarla en una variable intermedia.
+		//
+		//
+		// ❌:
+		// boolean c1 = r1 && r2;
+		// if (c1)
+		//
+		// ✅ Mejor:
+		// if (x > y && x > z)
+
+		// ✔ Determinar el mayor directamente en la condición
+		if (x > y && x > z) {
+			System.out.println("El mayor es x: " + x);
+
+		} else if (y > x && y > z) {
+			System.out.println("El mayor es y: " + y);
+
+		} else {
+			System.out.println("El mayor es z: " + z);
 		}
 	}
 }
+```
