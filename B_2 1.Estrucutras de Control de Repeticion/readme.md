@@ -96,6 +96,8 @@ z = z + 1;
 Se usa la clase `Random`:
 
 ```java
+import java.util.Random;
+
 Random random = new Random();
 int numero = random.nextInt(1000);
 ```
@@ -113,6 +115,9 @@ Ejemplo típico:
 ```java
 while (z < 5) {
     int r = random.nextInt(2000);
+    if(r == 1000){
+    	break;
+    }
 }
 ```
 
