@@ -7,6 +7,8 @@
 │
 ├───B_1 1.Estrucutras de Control Condicionales
 │
+├───B_2 1.Estrucutras de Control de Repeticion
+│
 └───Tareas
 
 
@@ -61,3 +63,9 @@
 - Comparación de valores
 
 ---
+
+### Ciclos
+📁 B_2 1.Estrucutras de Control de Repeticion  
+
+- Estructuras de repetición (`while`)  
+- Random
