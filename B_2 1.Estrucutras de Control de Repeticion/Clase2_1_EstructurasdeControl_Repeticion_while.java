@@ -1,6 +1,6 @@
 import java.util.Random; // Librería para generar números aleatorios
 
-public class Clase2_EstructurasdeControl_Repeticion_while {
+public class Clase2_1_EstructurasdeControl_Repeticion_while {
 
 	public static void main(String[] args) {
 
