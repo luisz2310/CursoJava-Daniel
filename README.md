@@ -6,8 +6,7 @@
 ├───A_1 3.Operadores Logicos y Aritmeticos
 │
 ├───B_1 1.Estrucutras de Control Condicionales
-│
-├───B_2 1.Estrucutras de Control de Repeticion
+├───B_1 2.Estrucutras de Control de Repeticion
 │
 └───Tareas
 
@@ -65,7 +64,7 @@
 ---
 
 ### Ciclos
-📁 B_2 1.Estructuras de Control de Repetición
+📁 B_1 2.Estructuras de Control de Repetición
 
 * Ciclo `while` and `for`
 * Diferencias entre `while` y `for`
