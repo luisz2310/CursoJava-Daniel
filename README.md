@@ -65,7 +65,13 @@
 ---
 
 ### Ciclos
-📁 B_2 1.Estrucutras de Control de Repeticion  
+📁 B_2 1.Estructuras de Control de Repetición
 
-- Estructuras de repetición (`while`)  
-- Random
+* Ciclo `while` and `for`
+* Diferencias entre `while` y `for`
+* Uso de contadores y acumuladores
+* Ciclos infinitos: `while (true)` y `for (;;)`
+* Control de ciclos con `break` y `continue`
+* Generación de números aleatorios con `Random`
+* Alcance de variables dentro y fuera de los ciclos
+

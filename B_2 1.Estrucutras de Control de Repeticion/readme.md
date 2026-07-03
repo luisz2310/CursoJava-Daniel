@@ -1,19 +1,5 @@
 # 📘 Clase 2 – Estructuras de Control de Repetición en Java
 
-## 📌 Descripción
-
-Esta clase contiene ejemplos prácticos sobre:
-
-* `while`
-* `for`
-* `break`
-* `continue`
-* Contadores y acumuladores
-* Números aleatorios con `Random`
-
-El objetivo es aprender a **repetir instrucciones**, controlar cuándo termina un ciclo y reconocer cuándo usar `while` o `for`.
-
----
 
 # 🔁 WHILE
 
