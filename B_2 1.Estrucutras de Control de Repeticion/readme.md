@@ -1,5 +1,10 @@
 # 📘 Clase 2 – Estructuras de Control de Repetición en Java
 
+# 🧠 ¿Qué es?
+
+Permiten ejecutar un bloque de código varias veces según una condición.
+
+---
 
 # 🔁 WHILE
 
