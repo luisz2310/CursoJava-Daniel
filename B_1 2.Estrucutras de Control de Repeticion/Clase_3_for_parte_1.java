@@ -1,7 +1,7 @@
 /**
  * Clase 2.3 — Estructuras de repetición: for
  */
-public class Clase2_3_EstructurasdeControl_Repeticion_for {
+public class Clase_3_for_parte_1 {
 
     public static void main(String[] args) {
 

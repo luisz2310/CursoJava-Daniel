@@ -11,7 +11,7 @@ import java.util.Random; // Librería para generar números aleatorios
  * 4. Números aleatorios
  * 5. Control del while con break o con una bandera
  */
-public class Clase2_2_EstructurasdeControl_Repeticion_while {
+public class Clase_2_while_parte_2 {
 
     public static void main(String[] args) {
 
