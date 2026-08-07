@@ -1,3 +1,5 @@
+import java.util.Random;
+
 /**
  * Clase 2.3 — Estructuras de repetición: for
  */
@@ -182,5 +184,100 @@ public class Clase_3_for_parte_1 {
          */
 
         System.out.println("Fin del programa");
+        
+        
+     // ============================================
+     // REPASO
+     // ============================================
+
+
+     // ============================================
+     // WHILE
+     // ============================================
+     //
+     // Usamos WHILE cuando:
+     // - No sabemos exactamente cuántas veces se va a repetir una acción.
+     // - La repetición depende de una condición externa.
+     // - No necesariamente necesitamos un contador.
+     //
+     // Ejemplo:
+     // Generamos números aleatorios hasta encontrar el número 6.
+     //
+
+     Random random = new Random();
+
+     int intentos = 0;
+
+     while (true) {
+
+         int numero = random.nextInt(10);
+
+         System.out.println("Número generado: " + numero);
+         System.out.println("Intento: " + intentos);
+
+         if (numero == 6) {
+             break; // Sale del ciclo cuando encuentra el 6
+         }
+
+         intentos++;
+     }
+
+
+     // En este caso usamos WHILE, pero tiene un contador.
+     // Funciona correctamente, pero no es la mejor opción.
+     //
+     // Cuando sabemos exactamente cuántas veces queremos repetir algo,
+     // normalmente usamos FOR.
+     //
+
+     int contador = 0;
+
+     while (contador <= 5) {
+
+         System.out.println(contador);
+
+         contador = contador + 1; // Incrementamos para evitar ciclo infinito
+     }
+
+
+     // ============================================
+     // FOR
+     // ============================================
+     //
+     // Usamos FOR cuando:
+     // - Sabemos cuántas veces queremos repetir una acción.
+     // - Necesitamos un contador.
+     // - Tenemos un inicio, una condición y un incremento.
+     //
+     // Estructura:
+     //
+     // for (inicio; condición; incremento) {
+     //           código a repetir
+     // }
+     //
+
+
+     // Contar del 0 al 5
+
+     for (int contadorFor = 0; contadorFor <= 5; contadorFor = contadorFor + 1) {
+
+         System.out.println(contadorFor);
+
+     }
+
+
+     // ============================================
+     // FOR CON DECREMENTO
+     // ============================================
+     //
+     // También podemos usar FOR para contar hacia atrás.
+     //
+
+     for (int contadorFor = 100; contadorFor > 0; contadorFor = contadorFor - 1) {
+
+         System.out.println(contadorFor);
+
+     }
+     
     }
 }
