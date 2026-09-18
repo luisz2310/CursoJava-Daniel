@@ -8,6 +8,8 @@
 ├───B_1 1.Estrucutras de Control Condicionales
 ├───B_1 2.Estrucutras de Control de Repeticion
 │
+├───B_2 1.Scanner para leer de la consola
+│
 └───Tareas
 
 
@@ -64,7 +66,7 @@
 ---
 
 ### Ciclos
-📁 B_1 2.Estructuras de Control de Repetición
+📁 B_1 2.Estrucutras de Control de Repeticion
 
 * Ciclo `while` and `for`
 * Diferencias entre `while` y `for`
@@ -73,4 +75,14 @@
 * Control de ciclos con `break` y `continue`
 * Generación de números aleatorios con `Random`
 * Alcance de variables dentro y fuera de los ciclos
+
+---
+
+### Entrada de datos
+📁 B_2 1.Scanner para leer de la consola
+
+* Lectura de datos desde el teclado con `Scanner`
+* Importar `java.util.Scanner` y crear el objeto con `System.in`
+* Métodos de lectura: `nextInt()`, `nextDouble()`, `nextBoolean()`, `next()` y `nextLine()`
+* Uso de los datos leídos en ciclos, condicionales y acumuladores
 
